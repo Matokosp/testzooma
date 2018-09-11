@@ -10,12 +10,20 @@ p {
 		line-height: 1.2em;
 }
 
+h2 {
+	font-size: 1.5em;
+}
+
 h4 {
 	font-size: 0.8em;
 }
 
 .menures h4 {
 	font-size: 0.95em;
+}
+
+.espiritu-zooma h4 {
+	font-size: 0.9em;
 }
 
 .foto-servicios {
