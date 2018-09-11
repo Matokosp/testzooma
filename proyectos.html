@@ -325,13 +325,14 @@ $(document).ready(function(){
 </script>
 
 
-
+<script type="text/javascript" src="js/scrolloverflow.js"></script>
 <script type="text/javascript" src="js/fullpage.js"></script>
 <script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {
         sectionsColor: ['#fff', '#fff', '#fff', '#fff', '#fff'],
         anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage'],
         menu: '#menu',
+        scrollOverflow: true,
         scrollOverflowResetKey: true,
         lazyLoad: true,
         licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE'
