@@ -317,6 +317,10 @@ padding-top: 100px;
 	text-align: left;
 }
 
+.separation {
+	display: none;
+}
+
 .visita-proyecto {
 	position: absolute;
 	display: block;
@@ -324,6 +328,8 @@ padding-top: 100px;
 	width: 100%;
    text-align: right;
 }
+
+
 
 
 
