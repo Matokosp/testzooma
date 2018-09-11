@@ -1,0 +1,428 @@
+@charset "UTF-8";
+
+html  {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Mukta', sans-serif;
+	color: #000;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+p {
+	font-family: 'Mukta', sans-serif;
+	font-size: 0.95em;
+		line-height: 1.2em;
+}
+
+
+h1 {
+	font-size: 2em;
+	line-height: 1.3em;
+}
+
+h2 {
+	font-size: 1.625em;
+	line-height: 1.2em;
+}
+
+h3 {
+	font-size: 1.375em;
+	line-height: 1em;
+}
+
+h4 {
+	font-size: 1.125em;
+}
+
+
+
+
+
+
+
+/*CONOCENOS*/
+
+.intro {
+		padding: 20px;
+}
+
+.intro h1 {
+	color: #fff;
+	font-weight: 700;
+}
+
+.grid-servicios {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 20px 0px;
+	padding-top: 30px;
+}
+
+.grid-item-servicios {
+	text-align: center;
+}
+
+.grid-item-servicios p {
+	color: #fff;
+	font-weight: 400;
+	font-size: 0.8em;
+}
+
+.servicio-img {
+	width: 100px;
+}
+
+
+
+
+
+.espiritu-zooma h4 {
+	text-decoration: underline;
+}
+
+
+.metodologia-aside  {
+	padding-top: 20px;
+}
+
+.metodologia-aside p {
+	font-weight: 600;
+	font-size: 0.9em;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.icono-mas {
+	width: 30px;
+	vertical-align: middle;
+}
+
+
+
+.description-servicios {
+	padding: 1em;
+	display: block;
+	position: absolute;
+	top: 6vh;
+}
+
+.description-servicios h2 {
+	font-size: 1.595em;
+	line-height: 0.9em;
+}
+
+.foto-servicios {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 55vh;
+}
+
+.foto-section-servicios {
+    width: 100%;
+}
+
+.foto-section-servicios-768, .foto-section-servicios-992, .foto-section-servicios-1200  {
+	display: none;
+}
+
+
+
+
+
+
+.compromiso {
+	padding: 60px 0 30px 0;
+}
+
+.grid-compromiso-container {
+	display: grid;
+	grid-template-rows: 1 1 1 1 1;
+    grid-gap: 70px;
+    padding-bottom: 80px;
+}
+
+.grid-item-compromiso {
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.img-compromiso {
+	height: 60px;
+}
+
+.bloque-amarillo {
+	background-color: #fdb813;
+	width: 35px;
+	height: 4px;
+	margin: 7px auto;
+}
+
+
+
+
+
+
+
+.marcas-titulo {
+	background-color: #26b4ae;
+	position: absolute;
+	top: 0;
+	padding: 10vh 15vw 10vh 15vw;
+}
+
+.marcas-titulo h2 {
+	color: #fff;
+}
+
+
+
+
+
+.marcas-container {
+	display: block;
+	position: absolute;
+	bottom: 5vh;
+	width: 100%;
+	height: 55vh;
+}
+
+.marcas-img {
+width: 80%;
+}
+
+.marcas-img-768 {
+	display: none;
+}
+
+
+/*FIN PAGINA HOME*/
+
+
+
+
+
+
+
+
+
+
+/*PAGINA METODOLOGIA*/
+
+.trabajo-zooma-desc {
+	color: #fff;
+	font-size: 1.2em;
+	padding-top: 40px;
+}
+
+
+.underline  {
+	text-decoration: underline;
+}
+
+.titulo-metodologia {
+	padding-top: 70px;
+}
+
+
+.grid-container-metodologia {
+	display: inline-block;
+	padding: 40px 20px 40px 10px;
+
+}
+
+.grid-metodologia{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+}
+.pasos-metodologia-img-full {
+	display: none;
+}
+
+.pasos-metodologia-img {
+	grid-column-start: 1;
+	grid-row-start: 1;
+	grid-row-end: span 6;
+}
+
+
+.pasos-metodologia-texto {
+	text-align: left;
+	padding-top: 25px;
+	font-size: 0.9em;
+}
+
+
+.icon-metodologia {
+	height: 70px;
+}
+
+
+
+.foto-metodologia {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 45vh;
+}
+
+.grid-referentes {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	padding: 0 20vw 0 20vw;
+}
+
+
+
+
+
+
+
+/*PAGINA PROYECTOS*/
+
+.proyectos-content {
+	height: 100vh;
+	width: 90vw;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+}
+
+.titulo-proyectos {
+	display: block;
+	position: absolute;
+	top: 40px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.visita-proyecto {
+	position: absolute;
+	display: block;
+	bottom: 130px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.item-blanco {
+	color: #fff;
+}
+
+.img-logo-zooma-proyecto {
+	width: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*ARROW BOUNCE*/
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+  60% {
+    -moz-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+  60% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+  60% {
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+
+.i {
+  display: block;
+  color: #fff;
+  width: 30px;
+}
+.arrow {
+	z-index: 99;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -14px;
+  width: 10px;
+  height: 60px; /*change with size of arrow to make sit on bottom */
+/*   background-image: url(); */
+/*   background-size: contain; */
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+
+.arrow-metodologia {
+	z-index: 99;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -14px;
+  width: 10px;
+  height: 60px; /*change with size of arrow to make sit on bottom */
+/*   background-image: url(); */
+/*   background-size: contain; */
+}
+
