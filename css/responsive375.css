@@ -10,6 +10,10 @@ p {
 		line-height: 1.2em;
 }
 
+h4 {
+	font-size: 0.8em;
+}
+
 .foto-servicios {
 	display: block;
 	position: absolute;
