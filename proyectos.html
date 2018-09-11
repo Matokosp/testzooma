@@ -27,6 +27,89 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
+<style type="text/css">
+
+ .section{
+  text-align:center;
+  background-size: cover;
+  background-position: center;
+}
+
+
+  #section0{
+    background-image: url(images/empresa-sutil.jpg);
+  }
+
+  #section1 {
+    background-image: url(images/dipisa.jpg);
+  }
+
+  #section2{
+    background-image: url(images/mas-alla.jpg);
+  }
+  #section3{
+    background-image: url(images/depiel.jpg);
+  }
+  #section4{
+    background-image: url(images/akbar.jpg);
+  }
+
+
+
+  @media (min-width: 768px) {
+  #section0{
+    background-image: url(images/empresa-sutil-768.jpg);
+  }
+
+  #section1 {
+    background-image: url(images/dipisa-768.jpg);
+  }
+
+  #section2{
+    background-image: url(images/mas-alla-768.jpg);
+  }
+  #section3{
+    background-image: url(images/depiel-768.jpg);
+  }
+  #section4{
+    background-image: url(images/akbar-768.jpg);
+  }
+
+  }
+
+
+  @media (min-width: 1200px) {
+  #section0{
+    background-image: url(images/empresa-sutil-1200.jpg);
+  }
+
+  #section1 {
+    background-image: url(images/dipisa-1200.jpg);
+  }
+
+  #section2{
+    background-image: url(images/mas-alla-1200.jpg);
+  }
+  #section3{
+    background-image: url(images/depiel-1200.jpg);
+  }
+  #section4{
+    background-image: url(images/akbar-1200.jpg);
+  }
+
+  }
+
+
+
+
+
+</style>
+
+
+
 </head>
 
 <body>
@@ -76,19 +159,122 @@
 <div id="fullpage">
 
      <div class="section active" id="section0">
-          <div class="arrow bounce"><img class="i" src="images/arrowdown.svg"></div>
+
+          <div class="arrow bounce"><img class="i i-full-width" src="images/arrowdown-negro.svg"></div>
+        <section class="proyectos-content">
+            <section class="titulo-proyectos">
+              <h2 class="underline">Empresa Sutil</h2>
+              <br>
+              <p>Diseño Editorial</p>        
+            </section>
+
+            <section class="visita-proyecto">
+              <a href="proyecto-1.html">
+                <img class="img-logo-zooma-proyecto" src="images/icono-zooma.png">
+                <h2>Ver el proyecto</h2>
+              </a>
+            </section>
+         </section>      
+
      </div>
+
+
+
 
      <div class="section" id="section1">
+
+      <div class="arrow-metodologia bounce"><img class="i i-full-width" src="images/arrowdown.svg"></div>
+
+    <section class="proyectos-content item-blanco">
+
+      <section class="titulo-proyectos">
+        <h2 class="underline">Dipisa</h2>
+        <br>
+        <p>Branding | Diseño editorial | Diseño de experiencia y servicios</p>        
+      </section>
+
+      <section class="visita-proyecto">
+        <a class="item-blanco" href="proyecto-2.html">
+          <img class="img-logo-zooma-proyecto" src="images/icono-zooma-white.png">
+          <h2>Ver el proyecto</h2>
+        </a>
+      </section>  
+    </section>
+
      </div>
+
+
+
 
       <div class="section" id="section2">
+
+            <div class="arrow-metodologia bounce"><img class="i i-full-width" src="images/arrowdown.svg"></div>
+
+            <section class="proyectos-content item-blanco">
+
+              <section class="titulo-proyectos">
+                <h2 class="underline">Más allá de la libertad</h2>
+                <br>
+                <p>Branding | Diseño web | Diseño de experiencias y servicios</p>        
+              </section>
+
+              <section class="visita-proyecto">
+                <a class="item-blanco" href="proyecto-2.html">
+                  <img class="img-logo-zooma-proyecto" src="images/icono-zooma-white.png">
+                  <h2>Ver el proyecto</h2>
+                </a>
+              </section>  
+            </section>
      </div>
+
+
+
+
+
+
 
       <div class="section" id="section3">
-     </div>
+          <div class="arrow bounce"><img class="i i-full-width" src="images/arrowdown-negro.svg"></div>
+              <section class="proyectos-content">
+                  <section class="titulo-proyectos">
+                        <h2 class="underline">Depiel</h2>
+                        <br>
+                        <p>Branding | Diseño web</p>        
+                  </section>
+
+                  <section class="visita-proyecto">
+                        <a href="proyecto-1.html">
+                          <img class="img-logo-zooma-proyecto" src="images/icono-zooma.png">
+                          <h2>Ver el proyecto</h2>
+                        </a>
+                  </section>
+              </section>      
+      </div>
+
+
+
+
+
+
 
       <div class="section" id="section4">
+
+
+            <section class="proyectos-content item-blanco">
+
+              <section class="titulo-proyectos">
+                <h2 class="underline">Akbar</h2>
+                <br>
+                <p>Diseño web | Diseño de experiencias y servicios | Piezas gráficas</p>        
+              </section>
+
+              <section class="visita-proyecto">
+                <a class="item-blanco" href="proyecto-2.html">
+                  <img class="img-logo-zooma-proyecto" src="images/icono-zooma-white.png">
+                  <h2>Ver el proyecto</h2>
+                </a>
+              </section>  
+            </section>
      </div>
 
 
@@ -141,16 +327,12 @@ $(document).ready(function(){
 
 
 
-
-<script type="text/javascript" src="js/scrolloverflow.js"></script>
 <script type="text/javascript" src="js/fullpage.js"></script>
-<script type="text/javascript" src="js/examples.js"></script>
 <script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {
-        sectionsColor: ['#EDA109', '#fff', '#fff', '#fff', '#fff', '#fff'],
-        anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage', '6thPage'],
+        sectionsColor: ['#fff', '#fff', '#fff', '#fff', '#fff'],
+        anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage'],
         menu: '#menu',
-        scrollOverflow: true,
         scrollOverflowResetKey: true,
         lazyLoad: true,
         licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE'

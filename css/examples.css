@@ -52,7 +52,10 @@ abbr,acronym { border: 0;
 
 .section{
 	text-align:center;
+	background-size: cover;
 }
+
+
 
 .up{
 	display: block;
@@ -263,4 +266,5 @@ abbr,acronym { border: 0;
 	right:10px;
 	z-index: 999;
  }
+
 
