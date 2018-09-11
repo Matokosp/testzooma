@@ -304,15 +304,19 @@ width: 80%;
 .titulo-proyectos {
 	display: block;
 	position: absolute;
-	top: 60px;
+	top: 40px;
 	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 .visita-proyecto {
 	position: absolute;
 	display: block;
-	bottom: 90px;
+	bottom: 130px;
 	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 .item-blanco {
