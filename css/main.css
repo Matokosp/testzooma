@@ -358,6 +358,82 @@ width: 80%;
 
 
 
+/*PROYECTOS ESPECIFICO*/
+
+.intro-proyecto {
+	height: 100vh;
+	text-align: center;
+	padding-top: 10vh;
+}
+
+.text-titulo-proyecto {
+	padding-bottom: 30px;
+}
+
+.img-titulo-proyecto {
+	width: 100%;
+}
+
+.parrafo-1 {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*IMAGENES POR PROYECTO*/
+
+/*EMPRESA SUTIL*/
+
+.img-sutil-titulo {
+	background-image: url('../images/img-sutil-titulo.jpg');
+	background-size: cover;
+	height: 60vh;
+	width: 100%;
+	background-position: center center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*ARROW BOUNCE*/
 
 @-moz-keyframes bounce {
