@@ -35,6 +35,16 @@ h4 {
 	font-size: 1em;
 }
 
+
+.foto-section-servicios, .foto-section-servicios-768, .foto-section-servicios-992, .foto-section-servicios-1200  {
+	display: none;
+}
+
+.foto-section-servicios375 {
+	display: block;
+	width: 100%;
+}
+
 .foto-servicios {
 	display: block;
 	position: absolute;
