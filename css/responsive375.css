@@ -82,4 +82,24 @@ h4 {
 	height: 38vh;
 }
 
+
+.visita-proyecto h2 {
+	font-size: 1.2em;
+}
+
+.img-logo-zooma-proyecto {
+	width: 60px;
+}
+
+
+
+
+/*ARROW BOUNCE*/
+
+
+
+.arrow {
+  height: 40px;
+}
+
 }
