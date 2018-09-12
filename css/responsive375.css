@@ -53,6 +53,13 @@ h4 {
 	height: 40vh;
 }
 
+.marcas-titulo {
+	background-color: #26b4ae;
+	position: absolute;
+	top: 0;
+	padding: 5vh 15vw 5vh 15vw;
+}
+
 
 .marcas-container {
 	display: block;
@@ -63,7 +70,7 @@ h4 {
 }
 
 .marcas-img {
-	width: 65%;
+	width: 70%;
 }
 
 
