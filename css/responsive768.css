@@ -222,4 +222,82 @@ h4 {
 
 
 
+
+
+/*PROYECTO 01*/
+
+.texto-img-proyecto {
+	padding: 30px 180px 0 180px;
+}
+
+.texto-img-proyecto h4 {
+	font-size: 1.425em;
+	line-height: auto;
+}
+
+
+.control-proyect {
+	width: 100vw;
+	padding: 60px;
+	position: relative;
+}
+
+.volver-proyectos {
+	display: inline-block;
+	margin: 0 auto;
+	text-align: left;
+	padding-bottom: 0px;
+
+}
+
+.siguiente-proyecto {
+	display: inline-block;
+	margin: 0 auto;
+	text-align: right;
+    padding-bottom: 0px;
+    position: absolute;
+    right: 60px;
+}
+
+
+
+
+
+
+
+
+/*IMAGENES POR PROYECTO*/
+
+/*EMPRESA SUTIL*/
+
+.img-sutil-titulo {
+	background-image: url('../images/img-sutil-titulo-1000.jpg');
+	height: 45vh;
+}
+
+
+.img-sutil-2 {
+	background-image: url('../images/img-sutil-2-1000.jpg');
+	height: 45vh;
+}
+
+.img-sutil-3 {
+	background-image: url('../images/img-sutil-3-1000.jpg');
+	height: 35vh;
+}
+
+.img-sutil-4 {
+	background-image: url('../images/img-sutil-4-1000.jpg');
+	height: 45vh;
+}
+
+.img-sutil-5 {
+	background-image: url('../images/img-sutil-5-1000.jpg');
+	height: 45vh;
+}
+
+
+
+
+
 }
