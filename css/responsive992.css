@@ -76,5 +76,20 @@ h4 {
 
 
 
+/*PAGINA PROYECTOS ESPECIFICOS*/
+
+.texto-img-proyecto h4 {
+	font-size: 1.825em;
+	line-height: auto;
+}
+
+
+
+
+.parrafo-1 {
+	padding: 0 250px 20vh 250px;
+}
+
+
 
 }
