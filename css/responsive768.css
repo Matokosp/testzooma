@@ -226,6 +226,11 @@ h4 {
 
 /*PROYECTO 01*/
 
+.img-titulo-proyecto {
+	width: 100%;
+	padding-top: 120px;
+}
+
 .texto-img-proyecto {
 	padding: 30px 180px 0 180px;
 }
