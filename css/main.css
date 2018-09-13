@@ -374,10 +374,82 @@ width: 80%;
 	width: 100%;
 }
 
+
+
+
+
+
 .parrafo-1 {
-	padding: 0 50px 0 50px;
+	padding: 0 50px 20vh 50px;
 }
 
+
+
+
+
+
+
+
+
+.section-img-text-proyecto {
+
+}
+
+.img-proyecto-display-width {
+	width: 100%;
+}
+
+.texto-img-proyecto {
+	padding: 20px 50px 0 50px;
+}
+
+.texto-img-proyecto h4 {
+	font-size: 1em;
+	line-height: 1em;
+}
+
+
+
+
+
+
+.img-proyecto-solo {
+	width: 100%;
+	padding: 20vh 0 15vh 0;
+}
+
+
+
+
+.info-empresa {
+	padding: 0 30px 60px 60px;
+}
+
+
+
+
+.volver-proyectos {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 40px;
+
+}
+
+.fa-arrow-left {
+	font-size: 30px;
+}
+
+.siguiente-proyecto {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+    padding-bottom: 60px;
+}
+
+.logo-siguiente-proyecto {
+	width: 70px;
+}
 
 
 
@@ -413,7 +485,37 @@ width: 80%;
 }
 
 
+.img-sutil-2 {
+	background-image: url('../images/img-sutil-2.jpg');
+	background-size: cover;
+	height: 60vh;
+	width: 100%;
+	background-position: center center;
+}
 
+.img-sutil-3 {
+	background-image: url('../images/img-sutil-3.jpg');
+	background-size: cover;
+	height: 60vh;
+	width: 100%;
+	background-position: center center;
+}
+
+.img-sutil-4 {
+	background-image: url('../images/img-sutil-4.jpg');
+	background-size: cover;
+	height: 60vh;
+	width: 100%;
+	background-position: center center;
+}
+
+.img-sutil-5 {
+	background-image: url('../images/img-sutil-5.jpg');
+	background-size: cover;
+	height: 60vh;
+	width: 100%;
+	background-position: center center;
+}
 
 
 
