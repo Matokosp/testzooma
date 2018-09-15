@@ -356,7 +356,7 @@ padding-top: 100px;
 	display: grid;
 	height: 100vh;
 	text-align: left;
-	padding-top: 10vh;
+	padding-top: 5vh;
 	grid-template-rows: 10vh 20vh 20vh 40vh;
 	grid-template-columns: 5vw 5vw 5vw 5vw 10vw 60vw 10vw; 
 }
@@ -365,7 +365,7 @@ padding-top: 100px;
 	grid-row-start: 2;
 	grid-row-end: 3;
 	grid-column-start: 2;
-	grid-column-end: 6;
+	grid-column-end: 7;
 	padding-bottom: 0px;
 	z-index: 99;
 	padding-top: 10px;
@@ -429,7 +429,7 @@ padding-top: 100px;
 	text-align: center;
 	margin: 0 auto;
 	width: 80vw;
-	padding: 20vh 0px 15vh 0px;
+	padding: 10vh 0px 10vh 0px;
 }
 
 
@@ -503,6 +503,103 @@ padding-top: 100px;
 	height: 80vh;
 	width: 100%;
 	background-position: center center;
+}
+
+
+
+
+/*DIPISA*/
+
+
+.img-dipisa-titulo {
+	background-image: url('../images/img-dipisa-titulo-1200.gif');
+	height: 60vh;
+}
+
+.img-dipisa-2 {
+	background-image: url('../images/img-dipisa-2-1200.jpg');
+	height: 70vh;
+}
+
+.img-dipisa-3 {
+	background-image: url('../images/img-dipisa-3-1200.jpg');
+	height: 75vh;
+}
+
+.img-dipisa-4 {
+	background-image: url('../images/img-dipisa-4-1200.jpg');
+	height: 80vh;
+}
+
+.img-dipisa-5 {
+	background-image: url('../images/img-dipisa-5-1200.jpg');
+	height: 80vh;
+}
+
+.img-dipisa-6 {
+	background-image: url('../images/img-dipisa-6-1200.jpg');
+	height: 70vh;
+}
+
+.mapa-dipisa-viaje .img-proyecto-display-width {
+	width: 100%;
+	grid-column: 2 / 5;
+	grid-row: 2 / 4;
+}
+
+.img-dipisa-7 {
+	background-image: url('../images/img-dipisa-7-1200.jpg');
+	max-height: 350px;
+	height: 50vh
+}
+
+
+/*EMPRESA MAS ALLA*/
+
+.img-mas-alla-titulo {
+	background-image: url('../images/img-mas-alla-titulo-1200.jpg');
+	height: 60vh;
+}
+
+
+.img-mas-alla-2 {
+	background-image: url('../images/img-mas-alla-2-1200.jpg');
+	height: 75vh;
+}
+
+.img-mas-alla-3 {
+	background-image: url('../images/img-mas-alla-3-1200.jpg');
+	height: 400px;
+}
+
+.img-mas-alla-4 {
+	background-image: url('../images/img-mas-alla-4-1200.jpg');
+	height: 70vh;
+}
+
+.mas-alla-programa .img-proyecto-display-width {
+	width: 100%;
+	grid-column: 2 / 3;
+	grid-row: 1 / 4;
+}
+
+.mas-alla-programa h4 {
+	padding-left: 30px;
+}
+
+.img-mas-alla-5 {
+	background-image: url('../images/img-mas-alla-5-1200.jpg');
+	height: 65vh;
+}
+
+.img-mas-alla-6 {
+	background-image: url('../images/img-mas-alla-6-1200.jpg');
+	height: 85vh;
+}
+
+.img-mas-alla-7 {
+	background-image: url('../images/img-mas-alla-7-1200.jpg');
+	height: 75vh;
 }
 
 

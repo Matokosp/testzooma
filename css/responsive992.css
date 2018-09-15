@@ -92,4 +92,26 @@ h4 {
 
 
 
+
+
+
+
+
+
+
+/*IMAGENES POR PROYECTO*/
+
+/*DISPISA*/
+
+.img-dipisa-2 {
+	background-image: url('../images/img-dipisa-2-1000.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 340px;
+	max-height: 490px;
+	width: 100%;
+}
+
+
+
 }

@@ -392,6 +392,7 @@ width: 80%;
 
 
 .section-img-text-proyecto {
+	padding: 10vh 0 10vh 0;
 
 }
 
@@ -415,14 +416,14 @@ width: 80%;
 
 .img-proyecto-solo {
 	width: 100%;
-	padding: 20vh 0 15vh 0;
+	padding: 0vh 0 10vh 0;
 }
 
 
 
 
 .info-empresa {
-	padding: 0 30px 60px 60px;
+	padding: 0 30px 60px 50px;
 }
 
 
@@ -474,50 +475,144 @@ width: 80%;
 
 /*IMAGENES POR PROYECTO*/
 
+
+.img-proyectos-template {
+	background-size: cover;
+	background-position: center center;
+	height: 65vh;
+	width: 100%;
+}
+
+
+
 /*EMPRESA SUTIL*/
 
 .img-sutil-titulo {
 	background-image: url('../images/img-sutil-titulo.jpg');
-	background-size: cover;
-	height: 60vh;
-	width: 100%;
-	background-position: center center;
 }
 
 
 .img-sutil-2 {
 	background-image: url('../images/img-sutil-2.jpg');
-	background-size: cover;
-	height: 60vh;
-	width: 100%;
-	background-position: center center;
 }
 
 .img-sutil-3 {
 	background-image: url('../images/img-sutil-3.jpg');
-	background-size: cover;
-	height: 60vh;
-	width: 100%;
-	background-position: center center;
 }
 
 .img-sutil-4 {
 	background-image: url('../images/img-sutil-4.jpg');
-	background-size: cover;
-	height: 60vh;
-	width: 100%;
-	background-position: center center;
 }
 
 .img-sutil-5 {
 	background-image: url('../images/img-sutil-5.jpg');
-	background-size: cover;
-	height: 60vh;
-	width: 100%;
-	background-position: center center;
 }
 
 
+/*EMPRESA DIPISA*/
+
+.img-dipisa-titulo {
+	background-image: url('../images/img-dipisa-titulo.jpg');
+}
+
+
+.img-dipisa-2 {
+	background-image: url('../images/img-dipisa-2.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 200px;
+	width: 100%;
+}
+
+.img-dipisa-3 {
+	background-image: url('../images/img-dipisa-3.jpg');
+}
+
+.img-dipisa-4 {
+	background-image: url('../images/img-dipisa-4.jpg');
+}
+
+.img-dipisa-5 {
+	background-image: url('../images/img-dipisa-5.jpg');
+}
+
+.img-dipisa-6 {
+	background-image: url('../images/img-dipisa-6.jpg');
+}
+
+.img-dipisa-7 {
+	background-image: url('../images/img-dipisa-7.jpg');
+}
+
+
+
+
+/*EMPRESA MAS ALLA*/
+
+.img-mas-alla-titulo {
+	background-image: url('../images/img-mas-alla-titulo.jpg');
+}
+
+
+.img-mas-alla-2 {
+	background-image: url('../images/img-mas-alla-2.jpg');
+}
+
+.img-mas-alla-3 {
+	background-image: url('../images/img-mas-alla-3.jpg');
+	height: 70vh;
+}
+
+.img-mas-alla-4 {
+	background-image: url('../images/img-mas-alla-4.jpg');
+}
+
+.img-mas-alla-5 {
+	background-image: url('../images/img-mas-alla-5.jpg');
+}
+
+.img-mas-alla-6 {
+	background-image: url('../images/img-mas-alla-6.jpg');
+}
+
+.img-mas-alla-7 {
+	background-image: url('../images/img-mas-alla-7.jpg');
+}
+
+
+
+
+/*EMPRESA DEPIEL*/
+
+.img-depiel-titulo {
+	background-image: url('../images/img-depiel-titulo.jpg');
+}
+
+
+.img-mas-alla-2 {
+	background-image: url('../images/img-mas-alla-2.jpg');
+}
+
+.img-mas-alla-3 {
+	background-image: url('../images/img-mas-alla-3.jpg');
+	height: 70vh;
+}
+
+.img-mas-alla-4 {
+	background-image: url('../images/img-mas-alla-4.jpg');
+}
+
+.img-mas-alla-5 {
+	background-image: url('../images/img-mas-alla-5.jpg');
+}
+
+.img-mas-alla-6 {
+	background-image: url('../images/img-mas-alla-6.jpg');
+}
+
+.img-mas-alla-7 {
+	background-image: url('../images/img-mas-alla-7.jpg');
+}
 
 
 
