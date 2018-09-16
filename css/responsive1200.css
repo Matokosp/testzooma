@@ -605,4 +605,40 @@ padding-top: 100px;
 
 
 
+
+
+
+/*EMPRESA DEPIEL*/
+
+.img-depiel-titulo {
+	background-image: url('../images/img-depiel-titulo-1200.jpg');
+	height: 65vh;
+}
+
+
+.img-depiel-2 {
+	background-image: url('../images/img-depiel-2-1200.jpg');
+	height: 85vh;
+}
+
+.img-depiel-3 {
+	background-image: url('../images/img-depiel-3-1200.jpg');
+	height: 65vh;
+}
+
+.img-depiel-4 {
+	background-image: url('../images/img-depiel-4-1200.jpg');
+	height: 65vh;
+}
+
+.img-depiel-5 {
+	background-image: url('../images/img-depiel-5-1200.jpg');
+	height: 70vh;
+}
+
+
+
+
+
+
 }

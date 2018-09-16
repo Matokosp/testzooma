@@ -394,5 +394,32 @@ h4 {
 
 
 
+/*EMPRESA DEPIEL*/
+
+.img-depiel-titulo {
+	background-image: url('../images/img-depiel-titulo-1000.jpg');
+}
+
+
+.img-depiel-2 {
+	background-image: url('../images/img-depiel-2-1000.jpg');
+}
+
+.img-depiel-3 {
+	background-image: url('../images/img-depiel-3-1000.jpg');
+}
+
+.img-depiel-4 {
+	background-image: url('../images/img-depiel-4-1000.jpg');
+}
+
+.img-depiel-5 {
+	background-image: url('../images/img-depiel-5-1000.jpg');
+}
+
+
+
+
+
 
 }
