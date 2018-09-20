@@ -356,7 +356,7 @@ padding-top: 100px;
 	display: grid;
 	height: 100vh;
 	text-align: left;
-	padding-top: 5vh;
+	padding-top: 1vh;
 	grid-template-rows: 10vh 20vh 20vh 40vh;
 	grid-template-columns: 5vw 5vw 5vw 5vw 10vw 60vw 10vw; 
 }
@@ -367,7 +367,7 @@ padding-top: 100px;
 	grid-column-start: 2;
 	grid-column-end: 7;
 	padding-bottom: 0px;
-	z-index: 99;
+	z-index: 5;
 	padding: 10px 0px 0px 0px;
 }
 
