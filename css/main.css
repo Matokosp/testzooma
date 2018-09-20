@@ -479,7 +479,7 @@ width: 80%;
 .img-proyectos-template {
 	background-size: cover;
 	background-position: center center;
-	height: 65vh;
+	height: 70vh;
 	width: 100%;
 }
 
@@ -603,6 +603,45 @@ width: 80%;
 
 .img-depiel-5 {
 	background-image: url('../images/img-depiel-5.jpg');
+}
+
+
+
+
+
+/*EMPRESA AKBAR*/
+
+.img-akbar-titulo {
+	background-image: url('../images/img-akbar-titulo.jpg');
+}
+
+
+.img-akbar-2 {
+	background-image: url('../images/img-akbar-2.jpg');
+}
+
+.img-akbar-3 {
+	background-image: url('../images/img-akbar-3.jpg');
+}
+
+.img-akbar-4 {
+	background-image: url('../images/img-akbar-4.jpg');
+}
+
+.img-akbar-5 {
+	background-image: url('../images/img-akbar-5.jpg');
+}
+
+.img-akbar-6 {
+	background-image: url('../images/img-akbar-6.jpg');
+}
+
+.img-akbar-7 {
+	background-image: url('../images/img-akbar-7.jpg');
+}
+
+.img-akbar-8 {
+	background-image: url('../images/img-akbar-8.jpg');
 }
 
 

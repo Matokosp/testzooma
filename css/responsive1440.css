@@ -235,5 +235,52 @@ h4 {
 
 
 
+/*EMPRESA AKBAR*/
+
+.img-akbar-titulo {
+	background-image: url('../images/img-akbar-titulo-1200.jpg');
+	height: 75vh;
+}
+
+
+.img-akbar-2 {
+	background-image: url('../images/img-akbar-2-1200.jpg');
+	height: 80vh;
+}
+
+.img-akbar-3 {
+	background-image: url('../images/img-akbar-3-1200.jpg');
+	height: 75vh;
+}
+
+.img-akbar-4 {
+	background-image: url('../images/img-akbar-4-1200.jpg');
+	height: 75vh;
+}
+
+.img-akbar-5 {
+	background-image: url('../images/img-akbar-5-1200.jpg');
+	height: 110vh;
+}
+
+.img-akbar-6 {
+	background-image: url('../images/img-akbar-6-1200.jpg');
+	height: 85vh;
+}
+
+.img-akbar-7 {
+	background-image: url('../images/img-akbar-7-1200.jpg');
+	height: 90vh;
+}
+
+.img-akbar-8 {
+	background-image: url('../images/img-akbar-8-1200.jpg');
+	height: 85vh;
+}
+
+
+
+
+
 
 }
