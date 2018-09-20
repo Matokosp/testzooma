@@ -159,10 +159,10 @@ margin-bottom: 30px;
 
 #menu {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   text-align: center;
   margin: 0;
-  padding: 0 0px 0 40vw;
+  padding: 0 0px 0 45vw;
 }
 
 #menu li {
@@ -209,7 +209,7 @@ margin-bottom: 30px;
 
 
 #menu {
-  padding: 0 0px 0 40vw;
+  padding: 0 0px 0 45vw;
 }
 
 #menu a {
