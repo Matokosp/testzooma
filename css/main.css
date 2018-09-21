@@ -657,6 +657,57 @@ width: 80%;
 
 
 
+/*CONTACTO*/
+
+
+
+
+.block-1-contacto {
+	display: block;
+	position: fixed;
+	background-color: #36AFAC;
+	text-align: center;
+	padding: 60px 10px 60px 10px;
+}
+
+.block-1-contacto h1 {
+	color: #fff;
+}
+
+.info-contacto {
+	padding: 300px 0 0 0px;
+	color: #7b7b7b;
+	text-align: center;
+}
+
+.info-contacto p {
+	font-weight: 600;
+}
+
+.info-contacto a {
+	font-weight: 700;
+	color: #5b5b5b;
+}
+
+.ask-box-titulo {
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*ARROW BOUNCE*/
