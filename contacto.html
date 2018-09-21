@@ -126,6 +126,31 @@
 
 
 
+<section class="ask-box">
+
+        <form method="POST" name="contactform" action="contact-form-handler.php"> 
+        <p>
+            <label for='name'>Nombre:</label> <br>
+            <input class="form-name-mail" type="text" name="name">
+        </p>
+        <br>
+        <p>
+            <label for='email'>E-mail:</label> <br>
+            <input class="form-name-mail" type="text" name="email"> <br>
+        </p>
+        <br>
+        <p>
+            <label for='message'>Mensaje:</label> <br>
+            <textarea class="mensaje-form" name="message"></textarea>
+        </p>
+
+        <br>
+
+        <input class="enviar-forma" type="submit" value="enviar"><br>
+        </form>
+
+
+</section>
 
 
 
@@ -145,7 +170,15 @@
 
 
 
+<!-- FORM VALIDATOR -->
+<script type="text/javascript" src="js/gen_validatorv31.js"></script>
 
+<script language="JavaScript">
+var frmvalidator  = new Validator("contactform");
+frmvalidator.addValidation("name","req","Please provide your name"); 
+frmvalidator.addValidation("email","req","Please provide your email"); 
+frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+</script>
 
 
 

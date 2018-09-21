@@ -695,6 +695,39 @@ width: 80%;
 }
 
 
+.ask-box {
+	text-align: center;
+	border: solid black 2px;
+	padding: 50px 0;
+	margin: 0 40px;
+}
+
+
+.form-name-mail {
+	height: 20px;
+	border-style: none;
+	border-bottom: solid 2px black;
+}
+
+.mensaje-form {
+	border-style: none;
+	border-bottom: solid 2px black;
+	height: 70px;
+}
+
+
+
+.enviar-forma  {
+	background-color: #fdb716;
+	border-radius: 50px;
+	border-style: solid;
+	border-color: #000;
+	padding: 5px;
+	font-weight: 600;
+
+}
+
+
 
 
 
