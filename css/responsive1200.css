@@ -693,4 +693,74 @@ padding-top: 100px;
 
 
 
+
+
+
+
+
+
+
+/*CONTACTO*/
+
+
+
+
+.block-1-contacto {
+	display: block;
+	position: fixed;
+	background-color: #36AFAC;
+	text-align: left;
+	height: 100vh;
+	width: 30vw;
+	padding: 30vh 40px;
+}
+
+.info-contacto {
+	width: 40vw;
+	padding: 140px 0 0 45vw;
+	text-align: left;
+}
+
+.ask-box-titulo {
+	text-align: left;
+	padding: 40px 0 0 45vw;
+}
+
+
+.ask-box {
+	text-align: center;
+	border: solid black 2px;
+	padding: 50px 0vw;
+	margin: 0px 40px 40px 45vw;
+}
+
+
+.form-field {
+	text-align: left;
+	width: 80%;
+	padding: 0 0 0 40px;
+}
+
+.form-name-mail {
+	height: 20px;
+	border-style: none;
+	border-bottom: solid 2px black;
+	width: 100%;
+}
+
+.mensaje-form {
+	border-style: none;
+	border-bottom: solid 2px black;
+	height: 70px;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
 }

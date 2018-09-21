@@ -114,4 +114,25 @@ h4 {
 
 
 
+
+
+
+
+
+
+/*PAGINA CONTACTO*/
+
+.block-1-contacto {
+	padding: 130px 50px 80px 50px;
+}
+
+
+.info-contacto {
+	padding: 400px 0 0 0px;
+	color: #7b7b7b;
+	text-align: center;
+}
+
+
+
 }
