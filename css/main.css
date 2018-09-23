@@ -285,12 +285,23 @@ width: 80%;
 	height: 45vh;
 }
 
+
+
+
 .grid-referentes {
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr 1fr;
-	padding: 0 20vw 0 20vw;
+	padding: 20vh 20px;
 }
 
+.referente {
+	padding-bottom: 50px;
+}
+
+.img-referente {
+	width: 250px;
+	padding-bottom: 20px;
+}
 
 
 

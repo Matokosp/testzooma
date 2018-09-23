@@ -126,7 +126,8 @@ h4 {
 
 
 .description-servicios {
-	padding: 20vh 0 0 5vw;
+	position: absolute;
+	padding: 10vh 0 0 5vw;
 	left: 0;
 	height: auto;
 	width: 30vw;
@@ -296,6 +297,20 @@ padding-top: 100px;
 }
 
 
+
+.grid-referentes {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding: 100px 90px 0 90px;
+	grid-column-gap: 70px;
+}
+
+
+.img-referente {
+	width: 200px;
+	padding-bottom: 20px;
+}
 
 
 

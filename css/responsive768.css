@@ -93,7 +93,8 @@ h4 {
 
 
 .description-servicios {
-	padding: 3em 15vw 3em 15vw;
+	text-align: center;
+	padding: 1.6em 15vw 3em 15vw;
 }
 
 .espiritu-zooma h4 {
@@ -202,6 +203,11 @@ h4 {
 	display: inline-block;
 	padding: 40px 100px 40px 60px;
 
+}
+
+.img-referente {
+	width: 320px;
+	padding-bottom: 20px;
 }
 
 
