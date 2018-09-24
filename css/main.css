@@ -353,7 +353,7 @@ width: 80%;
 
 .visita-proyecto h3 {
 	font-weight: 600;
-	font-size: 1.2em;
+	font-size: 1em;
 }
 
 .item-blanco {
@@ -424,6 +424,7 @@ width: 80%;
 .texto-img-proyecto h4 {
 	font-size: 1em;
 	line-height: 1em;
+	font-weight: 600;
 }
 
 
@@ -443,14 +444,24 @@ width: 80%;
 	padding: 0 30px 60px 50px;
 }
 
+.info-empresa h3 {
+	font-weight: 400;
+	font-size: 1em;
+}
+
+
+
+.control-proyect {
+	width: 100%;
+	position: relative;
+}
 
 
 
 .volver-proyectos {
-	display: block;
-	margin: 0 auto;
-	text-align: center;
-	padding-bottom: 40px;
+	display: inline-block;
+	text-align: left;
+	padding: 0 60px 0 20px;
 
 }
 
@@ -459,14 +470,15 @@ width: 80%;
 }
 
 .siguiente-proyecto {
-	display: block;
-	margin: 0 auto;
-	text-align: center;
-    padding-bottom: 60px;
+	display: inline-block;
+	position: absolute;
+	text-align: right;
+    padding: 0 20px 60px 0;
+    right: 0;
 }
 
 .logo-siguiente-proyecto {
-	width: 70px;
+	width: 50px;
 }
 
 
