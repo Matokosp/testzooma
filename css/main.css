@@ -330,6 +330,7 @@ width: 80%;
 
 .visita-proyecto {
 	display: block;
+		text-align: right;
 }
 
 /*.titulo-proyectos {
@@ -350,12 +351,17 @@ width: 80%;
 	padding: 0;
 }*/
 
+.visita-proyecto h3 {
+	font-weight: 600;
+	font-size: 1.2em;
+}
+
 .item-blanco {
 	color: #fff;
 }
 
 .img-logo-zooma-proyecto {
-	width: 90px;
+	width: 70px;
 }
 
 
