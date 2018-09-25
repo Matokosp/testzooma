@@ -222,6 +222,16 @@ h4 {
 	width: 100%;
 }
 
+
+.visita-proyecto {
+	display: block;
+	text-align: center;
+}
+
+.visita-proyecto h3 {
+	font-size: 1.2em;
+}
+
 .proyectos-content p {
 	font-size: 1.4em;
 }
