@@ -705,7 +705,6 @@ width: 80%;
 
 .info-contacto {
 	padding: 300px 0 0 0px;
-	color: #7b7b7b;
 	text-align: center;
 }
 
@@ -714,8 +713,7 @@ width: 80%;
 }
 
 .info-contacto a {
-	font-weight: 700;
-	color: #5b5b5b;
+	font-weight: 600;
 }
 
 .ask-box-titulo {
