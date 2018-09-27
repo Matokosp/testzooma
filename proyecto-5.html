@@ -14,6 +14,10 @@
 
     <link href="https://fonts.googleapis.com/css?family=Mukta:400,600,700,800" rel="stylesheet">
 
+    <!-- FLEXSLIDER -->
+    <link rel="stylesheet" href="css/demo.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+
     <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
     <link rel="stylesheet" type="text/css" href="css/examples.css" />    
     <link rel="stylesheet" type="text/css" href="css/main.css" />
@@ -23,6 +27,10 @@
     <link rel="stylesheet" type="text/css" href="css/responsive992.css" />
     <link rel="stylesheet" type="text/css" href="css/responsive1200.css" />
     <link rel="stylesheet" type="text/css" href="css/responsive1440.css" />
+
+
+
+
 
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
@@ -171,11 +179,32 @@
     </section>
 
 
+<!-- FLEXSLIDER -->
+
+       <section class="flexslider-container-proyecto">
+            <div class="flexslider">
+                  <ul class="slides">
+                    <li>
+                    <div class="img-proyectos-template img-akbar-6"></div>
+                    </li>
+                    <li>
+                    <div class="img-proyectos-template img-akbar-6-2"></div>
+                    </li>
+                    <li>
+                    <div class="img-proyectos-template img-akbar-6-3"></div>
+                    </li>
+                    <li>
+                    <div class="img-proyectos-template img-akbar-6-4"></div>
+                    </li>
+                  </ul>
+            </div>
+       </section>
+
+<!-- TERMINO FLEXSLIDER -->
 
 
-    <section class="img-proyecto-solo">
-        <div class="img-proyectos-template img-akbar-6"></div>        
-    </section>
+
+
 
     <section class="img-proyecto-solo">
         <div class="img-proyectos-template img-akbar-7"></div>        
@@ -211,6 +240,8 @@
         <div class="volver-proyectos">
             <a href="proyectos.html">
                 <i class="fas fa-arrow-left"></i>
+                <br>
+                <br>
                 <h4>Volver a proyectos</h4>
             </a>
         </div>
@@ -232,6 +263,36 @@ $(window).scroll(function(){
 
 <!-- MENU SCRIPT -->
 <script type="text/javascript" src="js/menuprueba.js"></script>
+
+
+
+
+
+ <!-- jQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+
+  <!-- FlexSlider -->
+  <script defer src="js/jquery.flexslider.js"></script>
+
+  <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+    <!-- Syntax Highlighter -->
+  <script type="text/javascript" src="js/shCore.js"></script>
+  <script type="text/javascript" src="js/shBrushXml.js"></script>
+  <script type="text/javascript" src="js/shBrushJScript.js"></script>
 
 
 

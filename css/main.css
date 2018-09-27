@@ -669,6 +669,24 @@ width: 80%;
 	background-image: url('../images/img-akbar-6.jpg');
 }
 
+
+
+
+.flexslider-container-proyecto {
+	padding: 20px 0;
+}
+
+
+.flex-nav-prev {
+	display: none;
+}
+
+.flex-nav-next {
+	display: none;
+}
+
+
+
 .img-akbar-7 {
 	background-image: url('../images/img-akbar-7.jpg');
 }
