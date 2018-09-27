@@ -526,6 +526,14 @@ width: 80%;
 	padding-bottom: 30px;
 }
 
+.flex-nav-prev {
+	display: none;
+}
+
+.flex-nav-next {
+	display: none;
+}
+
 
 
 
@@ -639,6 +647,10 @@ width: 80%;
 	background-image: url('../images/img-mas-alla-8.jpg');
 }
 
+.img-mas-alla-9 {
+	background-image: url('../images/img-mas-alla-9.jpg');
+}
+
 
 
 
@@ -673,6 +685,10 @@ width: 80%;
 	background-image: url('../images/img-depiel-62.jpg');
 }
 
+.img-depiel-7 {
+	background-image: url('../images/img-depiel-7.jpg');
+}
+
 
 
 
@@ -704,15 +720,29 @@ width: 80%;
 	background-image: url('../images/img-akbar-6.jpg');
 }
 
-
-
-.flex-nav-prev {
-	display: none;
+.img-akbar-6-2 {
+	background-image: url('../images/img-akbar-6-2.jpg');
 }
 
-.flex-nav-next {
-	display: none;
+.img-akbar-6-3 {
+	background-image: url('../images/img-akbar-6-3.jpg');
 }
+
+.img-akbar-6-4 {
+	background-image: url('../images/img-akbar-6-4.jpg');
+}
+
+.img-akbar-6-5 {
+	background-image: url('../images/img-akbar-6-5.jpg');
+}
+
+.img-akbar-6-6 {
+	background-image: url('../images/img-akbar-6-6.jpg');
+}
+
+
+
+
 
 
 

@@ -677,6 +677,11 @@ padding-top: 100px;
 	height: 75vh;
 }
 
+.img-mas-alla-9 {
+	background-image: url('../images/img-mas-alla-9-1200.jpg');
+	height: 75vh;
+}
+
 
 
 
@@ -717,6 +722,11 @@ padding-top: 100px;
 
 .img-depiel-62 {
 	background-image: url('../images/img-depiel-62-1200.jpg');
+	height: 65vh;
+}
+
+.img-depiel-7 {
+	background-image: url('../images/img-depiel-7-1200.jpg');
 	height: 65vh;
 }
 
