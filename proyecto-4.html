@@ -14,6 +14,10 @@
 
     <link href="https://fonts.googleapis.com/css?family=Mukta:400,600,700,800" rel="stylesheet">
 
+        <!-- FLEXSLIDER -->
+    <link rel="stylesheet" href="css/demo.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+
     <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
     <link rel="stylesheet" type="text/css" href="css/examples.css" />    
     <link rel="stylesheet" type="text/css" href="css/main.css" />
@@ -107,12 +111,25 @@
     </section>
 
 
-    <section class="section-img-text-proyecto mas-alla-programa">
-        <article class="img-proyecto-display-width">
-            <div class="img-proyectos-template img-depiel-3"></div>
-        </article>
 
-        <article class="texto-img-proyecto">
+<!-- FLEXSLIDER -->
+
+       <section class="flexslider-container-proyecto">
+            <div class="flexslider">
+                  <ul class="slides">
+                    <li>
+                    <div class="img-proyectos-template img-depiel-3"></div>
+                    </li>
+                    <li>
+                    <div class="img-proyectos-template img-depiel-6"></div>
+                    </li>
+                    <li>
+                    <div class="img-proyectos-template img-depiel-62"></div>
+                    </li>
+                  </ul>
+            </div>
+
+            <article class="texto-img-proyecto">
         <h4>Diseño de estrategia de
             marketing de la empresa,
             tanto para material de su
@@ -120,7 +137,21 @@
             sus redes&nbsp;sociales.</h4>
 
         </article>
-    </section>
+       </section>
+
+
+       
+
+<!-- TERMINO FLEXSLIDER -->
+
+
+
+
+
+
+
+
+        
 
 
     <section class="img-proyecto-solo">
@@ -132,6 +163,8 @@
     <section class="img-proyecto-solo mas-alla-programa">
         <div class="img-proyectos-template img-depiel-5"></div>        
     </section>
+
+
 
 
 
@@ -177,6 +210,40 @@ $(window).scroll(function(){
 
 <!-- MENU SCRIPT -->
 <script type="text/javascript" src="js/menuprueba.js"></script>
+
+
+
+
+
+
+
+<!-- FLEXSLIDER -->
+
+ <!-- jQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+
+  <!-- FlexSlider -->
+  <script defer src="js/jquery.flexslider.js"></script>
+
+  <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+    <!-- Syntax Highlighter -->
+  <script type="text/javascript" src="js/shCore.js"></script>
+  <script type="text/javascript" src="js/shBrushXml.js"></script>
+  <script type="text/javascript" src="js/shBrushJScript.js"></script>
 
 
 

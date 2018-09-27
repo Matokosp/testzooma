@@ -562,6 +562,14 @@ padding-top: 100px;
 	background-position: center center;
 }
 
+.img-sutil-6 {
+	background-image: url('../images/img-sutil-6-1200.jpg');
+	background-size: cover;
+	height: 80vh;
+	width: 100%;
+	background-position: center center;
+}
+
 
 
 
@@ -610,6 +618,21 @@ padding-top: 100px;
 	height: 50vh
 }
 
+.img-dipisa-8 {
+	background-image: url('../images/img-dipisa-8-1200.jpg');
+	height: 80vh;
+}
+
+.img-dipisa-9 {
+	background-image: url('../images/img-dipisa-9-1200.jpg');
+	height: 80vh;
+}
+
+
+
+
+
+
 
 /*EMPRESA MAS ALLA*/
 
@@ -649,6 +672,10 @@ padding-top: 100px;
 	height: 75vh;
 }
 
+.img-mas-alla-8 {
+	background-image: url('../images/img-mas-alla-8-1200.jpg');
+	height: 75vh;
+}
 
 
 
@@ -681,6 +708,16 @@ padding-top: 100px;
 .img-depiel-5 {
 	background-image: url('../images/img-depiel-5-1200.jpg');
 	height: 70vh;
+}
+
+.img-depiel-6 {
+	background-image: url('../images/img-depiel-6-1200.jpg');
+	height: 65vh;
+}
+
+.img-depiel-62 {
+	background-image: url('../images/img-depiel-62-1200.jpg');
+	height: 65vh;
 }
 
 

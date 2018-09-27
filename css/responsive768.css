@@ -332,6 +332,13 @@ h4 {
 	height: 45vh;
 }
 
+.img-sutil-6 {
+	background-image: url('../images/img-sutil-6-1000.jpg');
+	height: 45vh;
+}
+
+
+
 
 
 
@@ -375,6 +382,13 @@ h4 {
 	max-height: 250px;
 }
 
+.img-dipisa-8 {
+	background-image: url('../images/img-dipisa-8-1000.jpg');
+}
+
+.img-dipisa-9 {
+	background-image: url('../images/img-dipisa-9-1000.jpg');
+}
 
 
 
@@ -413,6 +427,9 @@ h4 {
 	background-image: url('../images/img-mas-alla-7-1000.jpg');
 }
 
+.img-mas-alla-8 {
+	background-image: url('../images/img-mas-alla-8-1000.jpg');
+}
 
 
 
@@ -437,6 +454,14 @@ h4 {
 
 .img-depiel-5 {
 	background-image: url('../images/img-depiel-5-1000.jpg');
+}
+
+.img-depiel-6 {
+	background-image: url('../images/img-depiel-6-1000.jpg');
+}
+
+.img-depiel-62 {
+	background-image: url('../images/img-depiel-62-1000.jpg');
 }
 
 

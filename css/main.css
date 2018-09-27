@@ -517,6 +517,17 @@ width: 80%;
 }
 
 
+.flexslider-container-proyecto {
+	padding: 20px 0;
+}
+
+.flexslider-container-proyecto .texto-img-proyecto {
+	padding-top: 0;
+	padding-bottom: 30px;
+}
+
+
+
 
 /*EMPRESA SUTIL*/
 
@@ -539,6 +550,10 @@ width: 80%;
 
 .img-sutil-5 {
 	background-image: url('../images/img-sutil-5.jpg');
+}
+
+.img-sutil-6 {
+	background-image: url('../images/img-sutil-6.jpg');
 }
 
 
@@ -577,6 +592,14 @@ width: 80%;
 	background-image: url('../images/img-dipisa-7.jpg');
 }
 
+.img-dipisa-8 {
+	background-image: url('../images/img-dipisa-8.jpg');
+}
+
+.img-dipisa-9 {
+	background-image: url('../images/img-dipisa-9.jpg');
+}
+
 
 
 
@@ -612,6 +635,10 @@ width: 80%;
 	background-image: url('../images/img-mas-alla-7.jpg');
 }
 
+.img-mas-alla-8 {
+	background-image: url('../images/img-mas-alla-8.jpg');
+}
+
 
 
 
@@ -636,6 +663,14 @@ width: 80%;
 
 .img-depiel-5 {
 	background-image: url('../images/img-depiel-5.jpg');
+}
+
+.img-depiel-6 {
+	background-image: url('../images/img-depiel-6.jpg');
+}
+
+.img-depiel-62 {
+	background-image: url('../images/img-depiel-62.jpg');
 }
 
 
@@ -669,12 +704,6 @@ width: 80%;
 	background-image: url('../images/img-akbar-6.jpg');
 }
 
-
-
-
-.flexslider-container-proyecto {
-	padding: 20px 0;
-}
 
 
 .flex-nav-prev {
