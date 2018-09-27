@@ -82,6 +82,11 @@ h4 {
 	padding-left: 5vw;
 }
 
+.intro .intro-title-metodologia h1 {
+	font-size: 3.7em;
+	font-weight: 700;
+}
+
 .intro h1 {
 	font-size: 3.4em;
 	font-weight: 600;
@@ -678,7 +683,7 @@ padding-top: 100px;
 
 .img-akbar-2 {
 	background-image: url('../images/img-akbar-2-1200.jpg');
-	height: 85vh;
+	height: 90vh;
 }
 
 .img-akbar-3 {
