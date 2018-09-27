@@ -433,10 +433,27 @@ padding-top: 100px;
 	grid-template-rows: 1 1;
 }
 
+.img-proyecto-display-width-1200 {
+	display: grid;
+	width: 100%;
+	grid-column: 2 / 2;
+	grid-row: 1 / 1;
+}
+
+
+.img-proyecto-display-width-akbar-2 {
+	display: none;
+}
+
+
 .img-proyecto-display-width {
 	width: 100%;
 	grid-column: 2 / 2;
 	grid-row: 1 / 1;
+}
+
+.img-solo {
+	width: 80vw;
 }
 
 .texto-img-proyecto {

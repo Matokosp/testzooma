@@ -413,6 +413,10 @@ width: 80%;
 
 }
 
+.img-proyecto-display-width-1200 {
+	display: none;
+}
+
 .img-proyecto-display-width {
 	width: 100%;
 }
