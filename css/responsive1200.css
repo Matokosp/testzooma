@@ -134,7 +134,7 @@ h4 {
 
 .description-servicios {
 	position: absolute;
-	padding: 20vh 0 0 5vw;
+	padding: 18vh 0 0 5vw;
 	left: 0;
 	height: auto;
 	width: 25vw;
@@ -310,7 +310,7 @@ padding-top: 100px;
 	display: grid;
 	grid-template-rows: 1fr;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	padding: 100px 90px 0 90px;
+	padding: 130px 90px 0 90px;
 	grid-column-gap: 70px;
 }
 
@@ -330,6 +330,10 @@ padding-top: 100px;
 	text-align: center;
 	margin: 0 auto;
 	position: relative;
+}
+
+.proyectos-content p {
+	font-size: 1.5em;
 }
 
 .titulo-proyectos {
@@ -365,21 +369,6 @@ padding-top: 100px;
 
 
 
-.proyectos-content p {
-	font-size: 1.8em;
-	font-weight: 400;
-}
-
-
-
-
-
-
-
-
-
-
-
 /*PAGINA PROYECTOS ESPECIFICOS*/
 
 
@@ -403,8 +392,8 @@ padding-top: 100px;
 }
 
 .text-titulo-proyecto h3 {
-	font-size: 1.5em;
-	font-weight: 600;
+	font-size: 1.4em;
+	font-weight: 400;
 }
 
 .img-titulo-proyecto {
