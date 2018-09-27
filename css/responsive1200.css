@@ -83,7 +83,7 @@ h4 {
 }
 
 .intro .intro-title-metodologia h1 {
-	font-size: 3.7em;
+	font-size: 4.4em;
 	font-weight: 700;
 }
 
@@ -387,7 +387,7 @@ padding-top: 100px;
 	display: grid;
 	height: 100vh;
 	text-align: left;
-	padding-top: 1vh;
+	padding-top: 4vh;
 	grid-template-rows: 10vh 20vh 20vh 40vh;
 	grid-template-columns: 5vw 5vw 5vw 5vw 10vw 60vw 10vw; 
 }
@@ -400,6 +400,11 @@ padding-top: 100px;
 	padding-bottom: 0px;
 	z-index: 5;
 	padding: 10px 0px 0px 0px;
+}
+
+.text-titulo-proyecto h3 {
+	font-size: 1.5em;
+	font-weight: 600;
 }
 
 .img-titulo-proyecto {
