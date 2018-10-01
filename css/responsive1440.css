@@ -7,7 +7,7 @@
 
 p {
 	font-family: 'Mukta', sans-serif;
-	font-size: 1.4em;
+	font-size: 1.3em;
 }
 
 
@@ -28,6 +28,19 @@ h4 {
 }
 
 
+
+
+
+
+.description-servicios {
+	padding: 15vh 0 0 5vw;
+}
+
+
+.marcas-img-768 {
+width: 70%;
+padding-top: 100px;
+}
 
 
 /*METODOLOGIA*/

@@ -121,6 +121,10 @@ h4 {
 	line-height: 0.9em;
 }
 
+.icon-descripcion-servicios {
+	display: none;
+}
+
 .foto-servicios {
 	display: block;
 	position: absolute;
@@ -148,9 +152,9 @@ h4 {
 
 .grid-compromiso-container {
 	display: grid;
-	grid-template-rows: 1 1 1 1 1;
-    grid-gap: 70px;
-    padding-bottom: 80px;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    padding-bottom: 40px;
 }
 
 .grid-item-compromiso {
@@ -159,8 +163,20 @@ h4 {
 	margin: 0 auto;
 }
 
+.grid-item-compromiso p {
+	display: none;
+}
+
+.grid-item-compromiso h3 {
+	font-size: 1em;
+}
+
 .img-compromiso {
 	height: 60px;
+}
+
+.up-compromiso {
+	display: none;
 }
 
 .bloque-amarillo {
