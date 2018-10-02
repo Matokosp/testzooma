@@ -19,6 +19,8 @@
     display: none;
 }
 
+
+
 .menu-text-resp {
   float: left;
   padding: 14px 0 0 60px;
@@ -94,7 +96,13 @@
 
 .menures li {
 color: white;
-margin-bottom: 30px;
+margin: 15px 0;
+}
+
+.linea-menu-res {
+  height: 1px;
+  background-color: #000;
+  margin: 0 15px;
 }
 
 /*.menures a:hover {
