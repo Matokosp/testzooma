@@ -180,7 +180,7 @@ h4 {
 }
 
 .bloque-amarillo {
-	background-color: #fdb813;
+	background-color: #b51e1e;
 	width: 35px;
 	height: 4px;
 	margin: 7px auto;
@@ -193,7 +193,7 @@ h4 {
 
 
 .marcas-titulo {
-	background-color: #26b4ae;
+	background-color: #b51e1e;
 	position: absolute;
 	top: 0;
 	padding: 10vh 15vw 10vh 15vw;
@@ -703,6 +703,10 @@ width: 80%;
 
 .img-depiel-7 {
 	background-image: url('../images/img-depiel-7.jpg');
+}
+
+.img-depiel-8 {
+	background-image: url('../images/img-depiel-8.jpg');
 }
 
 
