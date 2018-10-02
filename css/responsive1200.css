@@ -211,7 +211,6 @@ h4 {
 }
 
 .bloque-amarillo {
-	background-color: #fdb813;
 	width: 35px;
 	height: 4px;
 	margin: 16px auto;
@@ -225,7 +224,6 @@ h4 {
 
 
 .marcas-titulo {
-	background-color: #26b4ae;
 	position: absolute;
 	left: 0;
 	text-align: left;
