@@ -212,7 +212,7 @@ h4 {
 .metodologia-pasos img{
 	width: 100%;
 }
-/*.foto-metodologia {
+.foto-metodologia {
 	display: block;
 	position: absolute;
 	bottom: 0;
@@ -230,17 +230,20 @@ h4 {
 	width: 320px;
 	padding-bottom: 20px;
 }
-*/
+
 
 
 
 /*PAGINA PROYECTOS*/
 
 .titulo-proyectos {
-	display: block;
-	
-	top: 100px;
+	display: block;	
+	margin-top: 80px;
 	width: 100%;
+}
+
+.titulo-proyectos img {
+	width: 60px;
 }
 
 

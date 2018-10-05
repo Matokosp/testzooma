@@ -243,7 +243,7 @@ width: 80%;
 /*PAGINA METODOLOGIA*/
 
 .metodologia-esquema {
-	margin: 50px 0;
+	margin: 60px 0;
 	width: 100%;
 	text-align: center;
 }
@@ -253,6 +253,7 @@ width: 80%;
 }
 
 .metodologia-pasos {
+	margin: 0 0 60px 0;
 	width: 100%;
 	text-align: center;
 }
@@ -265,7 +266,7 @@ width: 80%;
 	display: none;
 }
 
-/*.trabajo-zooma-desc {
+.trabajo-zooma-desc {
 	color: #fff;
 	font-size: 1.2em;
 	padding-top: 40px;
@@ -346,7 +347,7 @@ width: 80%;
 	width: 250px;
 	padding-bottom: 20px;
 }
-*/
+
 
 
 
@@ -358,7 +359,7 @@ width: 80%;
 
 .proyectos-content {
 	width: 90vw;
-	text-align: center;
+	text-align: left;
 	margin: 0 auto;
 }
 
@@ -366,6 +367,24 @@ width: 80%;
 .titulo-proyectos  {
 	display: block;
 }
+
+.titulo-proyectos  p {
+	text-align: left;
+	font-weight: 600;
+	font-size: 1.1em;
+}
+
+.titulo-proyectos img {
+	width: 40px;
+	text-align: left;
+	padding-top: 20px;
+}
+
+.ejemplares h5 {
+	display: inline-block;
+	margin: 0 10px;
+}
+
 
 .separation {
 	display: block;
@@ -375,6 +394,10 @@ width: 80%;
 .visita-proyecto {
 	display: block;
 		text-align: right;
+}
+
+.underline  {
+	text-decoration: underline;
 }
 
 /*.titulo-proyectos {
