@@ -11,10 +11,18 @@ div#load_screen {
 	text-align: center;
 }
 
-div img{
-	
-}
-
 div#load_screen > div#loading {
 	margin: 50vh auto;
+}
+
+
+@media (max-width: 480px) {
+
+	div#load_screen > div#loading {
+	margin: 45vh auto;
+}
+
+	#loading img {
+		width: 80px;
+	}
 }
