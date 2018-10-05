@@ -61,13 +61,13 @@ padding-top: 100px;
 
 
 
-@media screen and (min-aspect-ratio: 16/9) {
+/*@media screen and (min-aspect-ratio: 16/9) {
 
   .arrow-metodologia-negro {
 	display: block;
 }
 
-}
+}*/
 
 /*.img-referente {
 	width: 280px;
