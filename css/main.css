@@ -43,6 +43,11 @@ h4 {
 	font-size: 1.125em;
 }
 
+h5 {
+	margin: 0;
+	padding: 0;
+}
+
 
 
 
@@ -237,7 +242,24 @@ width: 80%;
 
 /*PAGINA METODOLOGIA*/
 
-.trabajo-zooma-desc {
+.metodologia-esquema {
+	margin: 50px 0;
+	width: 100%;
+}
+
+.metodologia-esquema img {
+	max-width: 100%;
+}
+
+.metodologia-pasos {
+	width: 100%;
+}
+
+.metodologia-pasos img{
+	max-width: 100%;
+}
+
+/*.trabajo-zooma-desc {
 	color: #fff;
 	font-size: 1.2em;
 	padding-top: 40px;
@@ -318,7 +340,7 @@ width: 80%;
 	width: 250px;
 	padding-bottom: 20px;
 }
-
+*/
 
 
 
