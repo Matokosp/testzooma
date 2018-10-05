@@ -83,14 +83,20 @@
 		</section>
 		</nav>
 
+    <div class="arrow bounce arrow-metodologia-negro"><img class="i" src="images/arrowdown-negro.svg"></div>
 
     <section class="metodologia-esquema">
-      <img src="images/metodologia-esquema.png">
+      <img class="metodologia-img" src="images/metodologia-esquema.png">
+      <img class="metodologia-img-768" src="images/metodologia-esquema-768.png">
+      <img class="metodologia-img-1200" src="images/metodologia-esquema-1200.png">
+      <img class="metodologia-img-1440" src="images/metodologia-esquema-1440.png">
     </section>
 
     <section class="metodologia-pasos">
-      <img src="images/metodologia-texto.png">
-
+      <img class="metodologia-img" src="images/metodologia-texto.png">
+      <img class="metodologia-img-768" src="images/metodologia-texto-768.png">
+      <img class="metodologia-img-1200" src="images/metodologia-texto-1200.png">
+      <img class="metodologia-img-1440" src="images/metodologia-texto-1440.png">
     </section>
 
 
@@ -98,6 +104,14 @@
 
 
 
+
+<!-- ARROW BOUNCE -->
+
+<script>   
+$(window).scroll(function(){
+    $(".arrow").css("opacity", 1 - $(window).scrollTop() / 250); 
+  });
+</script>
 
 
 <!-- MENU SCRIPT -->

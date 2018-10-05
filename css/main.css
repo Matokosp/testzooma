@@ -245,6 +245,7 @@ width: 80%;
 .metodologia-esquema {
 	margin: 50px 0;
 	width: 100%;
+	text-align: center;
 }
 
 .metodologia-esquema img {
@@ -253,10 +254,15 @@ width: 80%;
 
 .metodologia-pasos {
 	width: 100%;
+	text-align: center;
 }
 
 .metodologia-pasos img{
 	max-width: 100%;
+}
+
+.metodologia-img-768, .metodologia-img-1200, .metodologia-img-1440 {
+	display: none;
 }
 
 /*.trabajo-zooma-desc {
@@ -980,6 +986,11 @@ width: 80%;
 /*   background-image: url(); */
 /*   background-size: contain; */
 }
+
+.arrow-metodologia-negro {
+	display: none;
+}
+
 
 
 

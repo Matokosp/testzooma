@@ -46,7 +46,30 @@ padding-top: 100px;
 /*METODOLOGIA*/
 
 
-.img-referente {
+.metodologia-img, .metodologia-img-768, .metodologia-img-1200 {
+	display: none;
+}
+
+.metodologia-img-1440 {
+	display: inline-block;
+}
+
+
+.metodologia-esquema img {
+	width: 60%;
+}
+
+
+
+@media screen and (min-aspect-ratio: 16/9) {
+
+  .arrow-metodologia-negro {
+	display: block;
+}
+
+}
+
+/*.img-referente {
 	width: 280px;
 	padding-bottom: 20px;
 }
@@ -75,7 +98,7 @@ padding-top: 100px;
 	font-weight: 400;
 	width: 600px;
 }
-
+*/
 
 
 

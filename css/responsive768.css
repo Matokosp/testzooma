@@ -198,7 +198,21 @@ h4 {
 
 /*PAGINA METODOLOGIA*/
 
-.foto-metodologia {
+.metodologia-img, .metodologia-img-1200, .metodologia-img-1440 {
+	display: none;
+}
+
+.metodologia-img-768  {
+	display: inline-block;
+}
+
+.metodologia-esquema img {
+	width: 100%;
+}
+.metodologia-pasos img{
+	width: 100%;
+}
+/*.foto-metodologia {
 	display: block;
 	position: absolute;
 	bottom: 0;
@@ -216,7 +230,7 @@ h4 {
 	width: 320px;
 	padding-bottom: 20px;
 }
-
+*/
 
 
 
