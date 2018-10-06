@@ -20,7 +20,7 @@ function desplazar(){
 
 
 
-  $("#hamburger").click(function () {
+  $(".nav-menu-res").click(function () {
   $(document).ready(function(){
   desplazar();
 });
