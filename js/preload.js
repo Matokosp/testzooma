@@ -1,4 +1,4 @@
-// PRELOAD POR CARGA
+// PRELOAD BY LOAD
 
 
 // window.addEventListener("load", function(){
@@ -7,7 +7,7 @@
 // });
 
 
-// PRELOAD POR TIEMPO
+// PRELOAD BY TIME
 
 
 setTimeout(function(){        
