@@ -129,7 +129,14 @@ h4 {
 
 /*PAGINA CONTACTO*/
 
-.block-1-contacto {
+.contact-info {
+	padding: 80px 10px;
+}
+
+
+/*ANTIGUO*/
+
+/*.block-1-contacto {
 	padding: 130px 50px 80px 50px;
 }
 
@@ -137,7 +144,7 @@ h4 {
 .info-contacto {
 	padding: 400px 0 0 0px;
 	text-align: center;
-}
+}*/
 
 
 

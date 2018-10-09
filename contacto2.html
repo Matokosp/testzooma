@@ -84,37 +84,101 @@
 </nav>
 
 
-        <section class="contact-info">          
-            <h2>¡Cuéntanos de tu proyecto y trabajemos&nbsp;juntos!</h2>
-            <br>
-            <p class="underline">Contacto<p>
-            <br>
-          <article class="contact-item">
-            <h3>Moni Cox</h3>
-            <p>Diseñadora UC <br>
-            Diplomado Diseño editorial U. Chile</p>
-          </article>
-          <article class="contact-item">
-            <h3>Antonia Paulsen</h3>
-            <p>Diseñadora UC <br>
-            Ilustradora</p>
-          </article>
-          <article class="contact-item">
-            <h3>Escríbenos o llámanos</h3>
-            <a href="mailto:hola@zooma.cl" target="_top">hola@zooma.cl <br>
-            +569 99885294
-          </article>
-          <h3>Instagram</h3><a href="https://www.instagram.com/zooma.design/">@zooma.design</a>
-        </section>
-
-        <section class="foto-contacto">  
-             <img class="contact-img" src="images/contact-img.jpg">
-             <img class="contact-img-768" src="images/contact-img-768.jpg">
-        </section>
 
 
 
+<section class="block-1-contacto">
+    <h1>¡Cuéntanos de tu proyecto y trabajemos juntos!</h1>
+</section>
 
+
+
+<section class="info-contacto">
+    <article>
+        <h3>Contacto</h3>
+        <p>Moni Cox</p>
+        <p>Anto Paulsen</p>
+    </article>
+
+    <br>
+
+    <article>
+        <h3>Mail</h3>
+        <p><a href="mailto:hola@zooma.cl"> hola@zooma.cl </a></p>
+    </article>
+
+     <br>
+
+    <article>
+        <h3>Social</h3>
+        <p> Instagram: <a href="https://www.instagram.com/zooma.design/">@zooma.design </a> </p>
+    </article>
+</section>
+
+<br>
+
+
+<section class="ask-box-titulo">
+    <h2>¿Tienes una duda?</h2>
+    <h3>Escríbenos</h3>
+</section>
+
+<br>
+
+
+<section class="ask-box">
+
+        <form class="form-field" method="POST" name="contactform" action="contact-form-handler.php"> 
+        <p>
+            <label for='name'>Nombre:</label> <br>
+            <input class="form-name-mail" type="text" name="name">
+        </p>
+        <br>
+        <p>
+            <label for='email'>E-mail:</label> <br>
+            <input class="form-name-mail" type="text" name="email"> <br>
+        </p>
+        <br>
+        <p>
+            <label for='message'>Mensaje:</label> <br>
+            <textarea class="mensaje-form" name="message"></textarea>
+        </p>
+
+        <br>
+
+        <input class="enviar-forma" type="submit" value="enviar"><br>
+        </form>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- FORM VALIDATOR -->
+<script type="text/javascript" src="js/gen_validatorv31.js"></script>
+
+<script language="JavaScript">
+var frmvalidator  = new Validator("contactform");
+frmvalidator.addValidation("name","req","Please provide your name"); 
+frmvalidator.addValidation("email","req","Please provide your email"); 
+frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+</script>
 
 
 

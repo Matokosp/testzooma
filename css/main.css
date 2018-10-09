@@ -841,9 +841,39 @@ width: 80%;
 /*CONTACTO*/
 
 
+.contact-info {
+	text-align: center;
+	padding: 60px 10px;
+}
+
+.contact-info h2 {
+	line-height: 1em;
+}
+
+.contact-item {
+	padding: 10px 0;
+}
+
+.foto-contacto {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.contact-img {
+	max-width: 100%;
+}
+
+.contact-img-768 {
+	display: none;
+}
 
 
-.block-1-contacto {
+
+
+/*ANTIGUO*/
+
+/*.block-1-contacto {
 	display: block;
 	position: fixed;
 	background-color: #36AFAC;
@@ -905,7 +935,7 @@ width: 80%;
 	padding: 5px;
 	font-weight: 600;
 
-}
+}*/
 
 
 
@@ -1015,6 +1045,9 @@ width: 80%;
 	display: block;
 }
 
+.arrow-down-1200 {
+	display: none;
+}
 
 
 

@@ -578,9 +578,22 @@ h4 {
 
 /*PAGINA CONTACTO*/
 
+.contact-img {
+	display: none;
+}
+
+.contact-img-768 {
+	display: inline-block;
+	max-width: 100%;
+}
+
+
+
+/*ANTIGUO*/
+/*
 .block-1-contacto {
 	padding: 80px 10px;
-}
+}*/
 
 
 
