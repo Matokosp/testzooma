@@ -242,6 +242,10 @@ width: 80%;
 
 /*PAGINA METODOLOGIA*/
 
+.fuente-metodologia {
+	font-size: 0.7em;
+}
+
 .metodologia-esquema {
 	margin: 60px 0;
 	width: 100%;
