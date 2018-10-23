@@ -147,11 +147,15 @@ h4 {
 
 .description-servicios {
 	position: absolute;
-	padding: 10vh 0 0 5vw;
+	padding: 15vh 0 0 10vw;
 	left: 0;
 	height: auto;
 	width: 25vw;
 	text-align: left;
+}
+
+.description-servicios-center {
+	padding: 20vh 0 0 10vw;	
 }
 
 .description-servicios h2 {
