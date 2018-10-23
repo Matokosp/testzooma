@@ -464,19 +464,11 @@ width: 80%;
 
 
 
-
-
-
 .parrafo-1 {
 	padding: 0 50px 20vh 50px;
+	text-align: center;
+	font-size: 1.3em;
 }
-
-
-
-
-
-
-
 
 
 .section-img-text-proyecto {
@@ -494,6 +486,7 @@ width: 80%;
 
 .texto-img-proyecto {
 	padding: 20px 50px 0 50px;
+	text-align: center;
 }
 
 .texto-img-proyecto h4 {
